@@ -1,4 +1,4 @@
-fetch("../js/test.json")
+fetch("../js/fetchPractice.json")
 
 .then(response => {
 	return response.json();
@@ -8,6 +8,6 @@ fetch("../js/test.json")
 	console.log(data);
 })
 
-.catch(e => {
-	return response.json();
+.catch(error => {
+    return response.json();
 })
